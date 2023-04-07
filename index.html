@@ -9,25 +9,82 @@
     <title>Главная</title>
 </head>
 <body>
-    <header>
-        <div class="w-full flex">
-            <div id="mobile__nav" class="bg-figmabg1 fixed top-0 right-0 flex flex-col h-screen w-full md:w-1/2 pt-12 transform translate-x-full transition duration-300 ease-in-out z-30">
-                <svg id="toggler__expanded" class="text-black w-6 h-6 top-4 left-4 cursor-pointer ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
-                <div class="flex flex-col h-full mt-4 p-4">
-                    <a href="" class="uppercase my-5">All products</a>
-                    <a href="" class="uppercase my-5">Solutions</a>
-                    <a href="" class="uppercase my-5">About</a>
-                    <a href="" class="uppercase my-5">Support</a> 
-                </div>
+    <header class="bg-[#333333] py-3 w-full">
+        <div class="container mx-auto flex items-center justify-between text-white">
+            <img src="Assets/Images/header/logo.png" alt="" class="w-16">
+            <div class="flex items-center gap-6">
+                <a href="">Важность</a>
+                <a href="">Цель</a>
+                <a href="">Задачи</a>
+                <a href="">Методы</a>
+                <a href="">История</a>
             </div>
-            <div class="w-full h-screen fixed top-0 right-0 hidden z-10 bg-gray-900 opacity-70" id="overlay"></div>
         </div>
     </header>  
 
-    <footer></footer>
+    <div class="container mx-auto py-12 flex flex-col gap-12">
+        <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4">
+                <p class="text-3xl font-medium">Важность проекта</p>
+                <div class="h-[2px] w-5 bg-[#B59571]"></div>
+            </div>
+            <div class="flex w-full gap-8">
+                <p class="w-2/3 text-xl">
+                    Динамично развивающийся мир предъявляет новые требования к подготовке профессиональных кадров. Развитие науки диктует выпускнику учебного заведения новые задачи. В этих условиях повышается значимость Soft Skills (софт скилс) – гибких навыков.
+                    Гибкие навыки не связаны с конкретной профессией, но важны для развития, пожалуй, каждого специалиста. Эти навыки облегчают работу в команде, освоение новой информации, процесс организации труда. В общем, отвечают за высокую производительность сотрудника не в ущерб его комфорту.
+                </p>
+                <img src="Assets/Images/about/1.avif" alt="" class="w-1/3 rounded-2xl">
+            </div>
+        </div>
+        <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4">
+                <p class="text-3xl font-medium">Цель</p>
+                <div class="h-[2px] w-5 bg-[#B59571]"></div>
+            </div>
+            <p class="text-xl">Выяснить, какие навыки помогут подросткам в создании собственного малого бизнеса.</p>
+        </div>
+        <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4">
+                <p class="text-3xl font-medium">Задачи</p>
+                <div class="h-[2px] w-5 bg-[#B59571]"></div>
+            </div>
+            <ul class="text-xl flex flex-col gap-4">
+                <li class="before:rounded-full before:w-2.5 before:h-2.5 before:bg-[#B59571] w-fit flex items-center gap-4">изучить гибкие навыки;</li>
+                <li class="before:rounded-full before:w-2.5 before:h-2.5 before:bg-[#B59571] w-fit flex items-center gap-4">провести опрос среди взрослых людей, которые достигли успеха;</li>
+                <li class="before:rounded-full before:w-2.5 before:h-2.5 before:bg-[#B59571] w-fit flex items-center gap-4">дать советы по развитию необходимых гибких навыков.</li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4">
+                <p class="text-3xl font-medium">Методы</p>
+                <div class="h-[2px] w-5 bg-[#B59571]"></div>
+            </div>
+            <ul class="text-xl flex flex-col gap-4">
+                <li class="before:rounded-full before:w-2.5 before:h-2.5 before:bg-[#B59571] w-fit flex items-center gap-4">изучение и обобщение;</li>
+                <li class="before:rounded-full before:w-2.5 before:h-2.5 before:bg-[#B59571] w-fit flex items-center gap-4">анализ;</li>
+                <li class="before:rounded-full before:w-2.5 before:h-2.5 before:bg-[#B59571] w-fit flex items-center gap-4">опрос.</li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4">
+                <p class="text-3xl font-medium">История</p>
+                <div class="h-[2px] w-5 bg-[#B59571]"></div>
+            </div>
+            <div class="flex w-full gap-8">
+                <img src="Assets/Images/history/1.jpg" alt="" class="w-1/3 rounded-2xl">
+                <p class="w-2/3 text-xl">
+                    Понятие Soft Skills возникло в 1960 годы в США и было связано с исследованиями, посвященными реформе в американской армии, а именно в системе подготовки личного состава.
+                    Особую актуальность гибкие навыки приобрели на рубеже XX-XXI веков. Этому способствовало развитие технологий — они меняются и меняют экономику так быстро, что обучиться чему-либо раз и навсегда уже не получается. Важнее становится умение учиться и адаптироваться в новых условиях.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-[#333333] py-3 w-full flex items-center justify-center text-white">
+        <p>© 2023 SoftSkills™. All Rights Reserved.</p>
+    </footer>
     
+
     <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.3.min.js" 
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
