@@ -7,7 +7,15 @@ const chart = new Chart(document.getElementById("doughnut-chart"), {
       {
         label: "Знаете ли вы о SoftSkills? (в процентном соотношении)",
         data: [67,33],
-        backgroundColor: ["#3e95cd", "#8e5ea2"],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)'
+      ],
+      borderColor: [
+          'rgba(255, 99, 132, 1)',
+          'rgba(54, 162, 235, 1)'
+      ],
+      borderWidth: 1
       }
     ]
   }
